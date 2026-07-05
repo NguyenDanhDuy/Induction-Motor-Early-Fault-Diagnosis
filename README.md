@@ -21,6 +21,8 @@ All datasets and trained models are hosted externally (raw size is too large for
 | Windows | Pre-windowed `.npy` segments | [Google Drive](https://drive.google.com/drive/folders/1UCrFhIcBjG6rHqRBadA90EeZO-Z70iS2?hl=vi) |
 | Ready Data | Split/scaled/oversampled train-test sets | [Google Drive](https://drive.google.com/drive/folders/1mhy-3LaTjHwuUgNYg0krnL1UQUKlpy86?hl=vi) |
 | Trained Models | Fitted scaler + SVM model | [Google Drive](https://drive.google.com/drive/folders/1Pa9SiCbKa3wbol7ynpMWHbhhr_DTkRte?hl=vi) |
+| Plot | Feature Waveform | [Google Drive](https://drive.google.com/drive/folders/1HZLjcV8RNFzS_bSd2DNlZMkmQA5wl_bv?usp=sharing) |
+
 
 ### Option A — Google Colab (recommended)
 ```python
