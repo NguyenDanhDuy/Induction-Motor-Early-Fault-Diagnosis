@@ -1,0 +1,64 @@
+# =============================================================================
+# DATA ARTIFACTS & ML PIPELINE OUTPUTS
+# =============================================================================
+# Block large raw or windowed numpy data files to prevent repository bloat
+data/step1_windows/*.npy
+data/step2_features/*.npy
+data/step3_ready/*.npy
+
+# Block trained models and scalers from being tracked by Git
+models/*.pkl
+models/*.joblib
+
+# =============================================================================
+# PYTHON BASE
+# =============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints and autosave states
+.ipynb_checkpoints
+
+# IPython
+.ipython
+
+#VS Code
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment binaries and dependency clones
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
