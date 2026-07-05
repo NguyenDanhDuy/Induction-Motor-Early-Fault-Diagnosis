@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 7f3cacb
 # Induction Motor Early Fault Diagnosis
 
 Machine learning pipeline for early fault diagnosis of induction motors using vibration signals from the **MAFAULDA** (Machinery Fault Database). The system classifies four operating states — **Normal, Imbalance, Misalignment, Bearing Fault** — using statistical time-domain features and an SVM (RBF, One-vs-One) classifier.
@@ -92,12 +88,14 @@ Trained artifacts (`scaler.pkl`, `svm_model.pkl`) and evaluation plots are saved
 
 **Confusion Matrix**
 
-=======
+
 ![Confusion Matrix](results/confusion_matrix.png)
 
 **Multi-class ROC Curve**
 
+
 ![ROC Curve](results/roc_curve_multiclass.png)
+
 
 Bearing Fault and Imbalance classes achieve the strongest separability (AUC ≥ 0.99), while Normal and Misalignment show some overlap, consistent with their closer vibration signatures.
 
