@@ -89,11 +89,11 @@ Trained artifacts (`scaler.pkl`, `svm_model.pkl`) and evaluation plots are saved
 
 **Confusion Matrix**
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](results/confusion_matrix.png)
 
 **Multi-class ROC Curve**
 
-![ROC Curve](roc_curve_multiclass.png)
+![ROC Curve](results/roc_curve_multiclass.png)
 
 Bearing Fault and Imbalance classes achieve the strongest separability (AUC ≥ 0.99), while Normal and Misalignment show some overlap, consistent with their closer vibration signatures.
 
